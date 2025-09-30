@@ -33,6 +33,7 @@ interface Progress {
   total_questions_in_section: number
   completion_percentage: number
   total_score: number
+  total_sections: number
 }
 
 export default function TestPage() {
